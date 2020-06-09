@@ -1,7 +1,7 @@
 CARNET = "201602871"                        #Referencia CARNE
-LIMITE_INFERIOR = 2                         #Limites para las secuecnia
+LIMITE_INFERIOR = 2                         #Limites para las secuencia
 LIMITE_SUPERIROR = 871                      #Limites para las secuencia
-archivo = open('corto1/collats.txt', 'w')   #Abro el archivo
+archivo = open('corto1/collatz.txt', 'w')   #Abro el archivo
 
 def par_impar(number):          #Funcion para determinar si el numero es impar o impar
     if(number%2):
